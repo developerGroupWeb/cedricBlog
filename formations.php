@@ -4,14 +4,14 @@
 	<!-- Required meta tags -->
 	<?php include 'pills/cssLink.php' ?>
 
-	<title>coaching</title>
+	<title>Toutes nos formations</title>
 	</head>
 <body>
 	<?php include 'template/nav.php' ?>
 
-	<section class="coaching-section">
-		<div class="img-bgd text-center text-uppercase">
-			<h1>Coaching</h1>
+	<section class="a-propos-section">
+		<div class="img-bg text-center text-uppercase">
+			<h1>Formations</h1>
 		</div>
 
 		<div class="container py-5">

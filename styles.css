@@ -31,6 +31,17 @@ background-color: ;
 	color: #333;
 }
 
+@media(max-width: 576px) {
+	.section-about img{
+		height: 160px;
+		width: 100%;
+	}
+
+	.section-about h1{
+		font-size: 25px;
+	}
+}
+
 .section-overlay .box1{
 	background-image: url(images/shakespeare_time_title_motivation_85147_1920x1080.jpg);
 	background-repeat: no-repeat;
@@ -77,4 +88,86 @@ background-color: ;
 	font-size: 32px;
 	margin-top: 60%;
 	}
+}
+
+footer{
+	background-color:  #262626;
+}
+
+footer a{
+	color: #fff;
+}
+
+footer .a{
+	font-size: 20px;
+}
+
+footer a:hover,footer .a:hover{
+	color: #00ace6;
+}
+
+.contact-uc-section{
+	background-image: url(images/teleconseilliere_0.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+.a-propos-section .img-bg{
+	background-image: url(images/relationclientnewimahe.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: #fff;
+	font-size: 60px;
+	font-weight: bold;
+}
+
+.a-propos-section .img-bg h1{
+	background-color: rgba(0,0,0,0.6);
+	padding: 100px 0px 100px 0px;
+}
+
+@media (max-width: 768px) {
+	.a-propos-section .img-bg h1{
+		font-size: 30px;
+		padding: 70px 0px 70px 0px;
+	}
+}
+
+.coaching-section .img-bgd{
+	background-image: url(images/slide_bg_coaching_personnel_confiance_en_soi.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: #fff;
+	font-size: 50px;
+	font-weight: bold;
+}
+
+.coaching-section .img-bgd h1{
+	background-color: rgba(0,0,0,0.8);
+	padding: 100px 0px 100px 0px;
+}
+
+@media (max-width: 768px) {
+	.coaching-section .img-bgd h1{
+		font-size: 30px;
+		padding: 50px 0px 50px 0px;
+	}
+}
+
+/**----------------------------mon espace-----------------------------------**/
+.mon-espac-section .nav .nav-link{
+	color: #eee;
+}
+
+.mon-espac-section .nav .nav-link .d-none{
+	font-size: 20px;
+}
+
+.mon-espac-section .nav .nav-link i{
+	color: #789;
+}
+
+.mon-espac-section .nav .nav-link:hover{
+	background-color: #333;
 }

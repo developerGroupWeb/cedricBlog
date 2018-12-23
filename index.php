@@ -8,7 +8,9 @@
     <title>Cedric</title>
   </head>
   <body>
+
     <?php include 'template/nav.php' ?>
+
     <section class="home-section">
       <div class="" style="background-color: rgba(0,0,0,0.7); height: 100vh;">
         <div class="container">
@@ -16,7 +18,7 @@
             <h1 class="mx-auto text-center">Transformez votre vie par la puissance de votre pensée!</h1>
           </div>
           <div class="row mt-5">
-            <div class="btn btn-outline-primary col-sm-4 offset-sm-4 col-10 offset-1">Démarer maintenant</div>
+            <!--<div class="btn btn-outline-primary col-sm-4 offset-sm-4 col-10 offset-1">Démarer maintenant</div>-->
           </div>
         </div>
       </div>
@@ -54,19 +56,19 @@
           <h2 class="mx-auto text-center text-white font-weight-bold">Recevez une capsule gratuit de Cedric</h2>
         </div>
         <div class="">
-          <form class="row">
+          <form class="row" method="post" action="traitement">
             <div class="form-group col-sm-4 col-10 offset-1 offset-sm-0">
-              <input type="name" name="" id="name" placeholder="Votre prenom..." class="form-control">
+              <input type="name" id="fName" placeholder="Votre prenom..." class="form-control">
             </div>
             <div class="form-group col-sm-4 col-10 offset-1 offset-sm-0">
-              <input type="email" name="" id="email" placeholder="Votre email..." class="form-control">
+              <input type="name" id="lName" placeholder="Votre nom..." class="form-control">
             </div>
             <div class="form-group col-sm-4 col-10 offset-1 offset-sm-0">
-              <input type="email" name="" id="cofEmail" placeholder="Confirmez votre prenom..." class="form-control">
+              <input type="email" id="email" placeholder="Votre email..." class="form-control">
             </div>
 
             <div class="col-md-4 offset-md-4 col-sm-6 offset-sm-3 col-10 offset-1">
-              <input type="submit" name="" value="Inscription gratuite" id="sendNewsletters" class="btn btn-info w-100">
+              <input type="submit" value="Je reçois" id="sendNewsletters" class="btn btn-info w-100">
             </div>
           </form>
         </div>
@@ -135,7 +137,7 @@
                 <h4>Travailler chez soi: comment rester motivé ?</h4>
               </div>
 
-              <div class="card-footer">
+              <div class="card-footer text-right">
                 <a href="#" class="btn btn-outline-primary">LIRE L'ARTICLE</a>
               </div>
             </div>
@@ -148,7 +150,7 @@
                 <h4>Travailler chez soi: comment rester motivé ?</h4>
               </div>
 
-              <div class="card-footer">
+              <div class="card-footer text-right">
                 <a href="#" class="btn btn-outline-primary">LIRE L'ARTICLE</a>
               </div>
             </div>
@@ -161,7 +163,7 @@
                 <h4>4 astuces pour établir un budget solide pour les fêtes de fin d'année</h4>
               </div>
 
-              <div class="card-footer">
+              <div class="card-footer text-right">
                 <a href="#" class="btn btn-outline-primary">LIRE L'ARTICLE</a>
               </div>
             </div>
@@ -170,27 +172,7 @@
       </div>
     </section>
 
-    <footer class="bg-dark">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4">
-            <h5 class="row"><a href="index.php">CEDRIC</a></h5>
-          </div>
-          <div class="col-md-2">
-            <a class="nav-link" class="row" href="coaching.php">Coaching</a>
-          </div>
-          <div class="col-md-2">
-            <a class="nav-link" class="row" href="#">Formations</a>
-          </div>
-          <div class="col-md-2">
-            <a class="nav-link" class="row" href="#">La boutique</a>
-          </div>
-          <div class="col-md-2">
-            <a class="nav-link" class="row" href="#">Événements</a>
-          </div>
-        </div>
-      </div>
-    </footer>
+    <?php include 'template/footer.php' ?>
 
    <?php include 'pills/jsLink.php' ?>
   </body>

@@ -24,14 +24,14 @@
           </ul>
    
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">À propos</a>
+            <li class="nav-item">
+              <a class="nav-link" href="a-propos.php">À propos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Nous joindre</a>
+              <a class="nav-link" href="contactez-nous.php">Nous joindre</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link btn-info" href="#">Se connecter </a>
+              <a class="nav-link btn-info text-white font-weight-bold rounded" style="background-color: #00ace6;" href="singIn.php">Se connecter </a>
             </li>
           </ul>
         </div>
@@ -51,11 +51,14 @@
               <a class="nav-link" href="coaching.php">Coaching</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Formations</a>
+              <a class="nav-link" href="formations.php">Formations</a>
             </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                La boutique
+            <li class="nav-item">
+              <a class="nav-link" href="événements.php">Événements</a>
+            </li>
+            <li class="nav-item btn-group dropdown">
+              <a class="nav-link" href="boutique.php">La boutique</a>
+              <a class="nav-link dropdown-toggle dropdown-toggle-split" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="cursor: pointer;">
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <a class="dropdown-item" href="#">Audios</a>
@@ -63,26 +66,23 @@
                 <a class="dropdown-item" href="#">Livres</a>
               </div>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Événements</a>
-            </li>
           </ul>
 
           <ul class="navbar-nav d-block d-md-none">
             <li class="nav-item active">
-              <a class="nav-link" href="#">À propos</a>
+              <a class="nav-link" href="a-propos.php">À propos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Nous joindre</a>
+              <a class="nav-link" href="contactez-nous.php">Nous joindre</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link btn btn-info" href="#">Se connecter </a>
+              <a class="nav-link btn btn-info" href="singIn.php">Se connecter </a>
             </li>
           </ul>
 
           <form class="form-inline my-2 my-lg-0">
             <input class="form-control" type="search" placeholder="Taper votre recherche" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+            
           </form>
         </div>
       </nav>
