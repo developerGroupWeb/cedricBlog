@@ -9,7 +9,7 @@
 <body>
 	<?php include 'template/nav.php' ?>
 
-	<section class="a-propos-section">
+	<section class="boutique-section">
 		<div class="img-bg text-center text-uppercase">
 			<h1>La boutique</h1>
 		</div>

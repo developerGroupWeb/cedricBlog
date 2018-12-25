@@ -9,7 +9,7 @@
 <body>
 	<?php include 'template/nav.php' ?>
 
-	<section class="a-propos-section">
+	<section class="formation-section">
 		<div class="img-bg text-center text-uppercase">
 			<h1>Formations</h1>
 		</div>

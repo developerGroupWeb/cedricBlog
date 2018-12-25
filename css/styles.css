@@ -2,6 +2,16 @@ body{
 background-color: ;
 }
 
+.nav-brand{
+
+}
+
+@media(max-width: 768px) {
+	.navbar-brand h1{
+		font-size: 30px;
+	}
+}
+
 .nav1{
 	padding-top: 0px;
 	padding-bottom: 0px;
@@ -14,7 +24,7 @@ background-color: ;
 }
 
 .home-section{
-	background-image: url(images/shakespeare_time_title_motivation_85147_1920x1080.jpg);
+	background-image: url(../images/index.jpg);
 	background-repeat: no-repeat;
 	height: 100vh;
 	color: #fff;
@@ -24,7 +34,7 @@ background-color: ;
 
 .home-section h1{
 	font-size: 100px;
-	margin-top: 17%;
+	margin-top: 10%;
 }
 
 .section-about{
@@ -32,7 +42,7 @@ background-color: ;
 }
 
 .testimony-section {
-	background-image: url(images/shakespeare_time_title_motivation_85147_1920x1080.jpg);
+	background-image: url(../images/shakespeare_time_title_motivation_85147_1920x1080.jpg);
 	background-repeat: no-repeat;
 	color: #fff;
 	background-size: cover;
@@ -55,21 +65,21 @@ background-color: ;
 }
 
 .section-overlay .box1{
-	background-image: url(images/IMG-20181212-WA0100.jpg);
+	background-image: url(../images/IMG-20181212-WA0100.jpg);
 	background-repeat: no-repeat;
 	height: 300px;
 	background-size: cover;
 }
 
 .section-overlay .box2{
-	background-image: url(images/IMG-20181212-WA0094.jpg);
+	background-image: url(../images/IMG-20181212-WA0094.jpg);
 	background-repeat: no-repeat;
 	height: 300px;
 	background-size: cover;
 }
 
 .section-overlay .box3{
-	background-image: url(images/IMG-20181225-WA0024.jpg);
+	background-image: url(../images/IMG-20181225-WA0024.jpg);
 	background-repeat: no-repeat;
 	height: 300px;
 	background-size: cover;
@@ -127,14 +137,14 @@ footer a:hover,footer .a:hover{
 }
 
 .contact-uc-section{
-	background-image: url(images/teleconseilliere_0.jpg);
+	background-image: url(../images/teleconseilliere_0.jpg);
 	background-size: cover;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 }
 
 .a-propos-section .img-bg{
-	background-image: url(images/relationclientnewimahe.jpg);
+	background-image: url(../images/relationclientnewimahe.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	color: #fff;
@@ -155,7 +165,7 @@ footer a:hover,footer .a:hover{
 }
 
 .coaching-section .img-bgd{
-	background-image: url(images/slide_bg_coaching_personnel_confiance_en_soi.jpg);
+	background-image: url(../images/find_your_purpose_1200x627.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	color: #fff;
@@ -163,19 +173,46 @@ footer a:hover,footer .a:hover{
 	font-weight: bold;
 }
 
-.coaching-section .img-bgd h1{
+.coaching-section .img-bgd h1,
+.formation-section .img-bg h1,
+.event-section .img-bg h1,
+.boutique-section .img-bg h1{
 	background-color: rgba(0,0,0,0.8);
-	padding: 100px 0px 100px 0px;
+	padding: 150px 0px 150px 0px;
 }
 
-.coaching-section .pull{
-	background-image: url(images/IMG-20181225-WA0029.jpg);
+.formation-section .img-bg{
+	background-image: url(../images/centreconsulaire.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
+	color: #fff;
+	font-size: 50px;
+	font-weight: bold;
+}
+
+.event-section .img-bg{
+	background-image: url(../images/9RdVGN.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: #fff;
+	font-size: 50px;
+	font-weight: bold;
+}
+
+.boutique-section .img-bg{
+	background-image: url(../images/index.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: #fff;
+	font-size: 50px;
+	font-weight: bold;
 }
 
 @media (max-width: 768px) {
-	.coaching-section .img-bgd h1{
+	.coaching-section .img-bgd h1,
+	.formation-section .img-bg h1,
+	.event-section .img-bg h1,
+	.boutique-section .img-bg h1{
 		font-size: 30px;
 		padding: 50px 0px 50px 0px;
 	}

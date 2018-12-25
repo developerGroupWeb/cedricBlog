@@ -30,7 +30,7 @@
 						<h1 class="mx-auto text-center font-weight-bold">Un Coach Pro pour vous accompagner.</h1>
 					</div>
 					<div class="row">
-						<h4 class="mx-auto text-center px-2">Un Coach pour vous orienter vers la réussite! Apprenez comment définir vos priorités, créer un plan d’action et augmenter vos résultats. Une opportunité unique de développer votre vie, vos relations, vos affaires, votre réseau, votre performance et votre équilibre. Nous proposons différentes formules de Coaching. Elles s’adressent à tous, particuliers, entrepreneurs, grandes entreprises, propriétaires, et sont adaptées à vos besoins.</h4>
+						<h4 class="mx-auto text-center px-2 px-md-4">Un Coach pour vous orienter vers la réussite! Apprenez comment définir vos priorités, créer un plan d’action et augmenter vos résultats. Une opportunité unique de développer votre vie, vos relations, vos affaires, votre réseau, votre performance et votre équilibre. Nous proposons différentes formules de Coaching. Elles s’adressent à tous, particuliers, entrepreneurs, grandes entreprises, propriétaires, et sont adaptées à vos besoins.</h4>
 					</div>
 				</div>
 			</div>

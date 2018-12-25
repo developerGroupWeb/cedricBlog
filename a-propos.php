@@ -9,12 +9,11 @@
 <body>
 	<?php include 'template/nav.php' ?>
 
-	<section class="a-propos-section">
-		<div class="img-bg text-center text-uppercase">
-			<h1>À propos</h1>
-		</div>
-
-		<div class="container py-5">
+	<section class="a-propos-section  py-5" style="background-image: url(images/rtyyw.jpg);">
+		<div class="container py-4 shadow" style="border: 10px solid #000; border-radius: 30px;">
+			<div class="row">
+				<h1 class="px-4 mx-auto mx-md-0">À propos</h1>
+			</div>
 			<div class="row px-2">
 				<div class="col-md-6">
 					<div class="row">
@@ -27,7 +26,7 @@
 				<div class="col-md-6">
 					<div class="row">
 						<div class="mx-auto">
-							<img src="images/IMG-20181225-WA0028.jpg" style="width: 300px; height: 400px;">
+							<img src="images/IMG-20181225-WA0028.jpg" alt="image" class="img-fluid" style="width: 300px; height: 400px;">
 						</div>
 					</div>
 					

@@ -15,7 +15,7 @@
       <div class="" style="background-color: rgba(0,0,0,0.7); height: 100vh;">
         <div class="container">
           <div class="row">
-            <h1 class="mx-auto text-center">Transformez votre vie par la puissance de votre pensée!</h1>
+            <h1 class="mx-auto text-center wow fadeInDown">Transformez votre vie par la puissance de votre pensée!</h1>
           </div>
           <div class="row mt-5">
             <!--<div class="btn btn-outline-primary col-sm-4 offset-sm-4 col-10 offset-1">Démarer maintenant</div>-->
@@ -37,7 +37,7 @@
             <div class="row mt-5">
               <h1 class="mx-auto text-center font-weight-bold">À propos de Cedric</h1>
             </div>
-            <div class="row">
+            <div class="row text-center">
               <p class="px-4">Cédric Agossou est expert en leadership, coach professionnel, Entrepreneur et Motivateur. Auteur du concept RAM : Réussite Axée sur le Mental, Cédric est un exemple typique de ce que nous appelons un self- made. Ayant souffert durant son enfance de manque d'argent et élevé dans la précarité, il a très tôt pris sur lui la responsabilité de changer sa vie. Disciple de Napoléon Hill comme il aime s'appeler, Cédric considère que l'ignorance est l'unique cause de l'échec d'une vie.</p>
               <p class="px-4">C'est pourquoi, il consacre une grande partie de son énergie à partager la connaissance et à redonner à tous ceux qui en ont le plus besoin.</p>
               <p class="px-4">Engagé à changer des vies afin d'avoir un monde meilleur, Cedric Agossou dont le slogan est <b>Ensemble pour tutoyer le succès afin d'impacter positivement l'humanité</b> s'évertue à travers des séances coaching, les conférences et autres à réveiller le génie qui sommeille en chacun.</p>
@@ -86,11 +86,11 @@
           <div class="row" style="background-color: rgba(0,0,0,0.7); height: 300px;">
             <div class="col-12">
               <div class="row">
-                <h2 class="mx-auto text-center">Formations</h2>
+                <h2 class="mx-auto text-center wow fadeInDown">Formations</h2>
               </div>
 
               <div class="row">
-                <div class="btn btn-outline-light mx-auto">EN SAVOIR PLUS</div>
+                <div class="btn btn-outline-light mx-auto wow fadeInUp">EN SAVOIR PLUS</div>
               </div>
             </div>
           </div>
@@ -99,11 +99,11 @@
           <div class="row" style="background-color: rgba(0,0,0,0.7); height: 300px;">
             <div class="col-12">
               <div class="row">
-                <h2 class="mx-auto text-center">Coaching</h2>
+                <h2 class="mx-auto text-center wow fadeInDown">Coaching</h2>
               </div>
 
               <div class="row">
-                <div class="btn btn-outline-light mx-auto">EN SAVOIR PLUS</div>
+                <div class="btn btn-outline-light mx-auto wow fadeInUp">EN SAVOIR PLUS</div>
               </div>
             </div>
           </div>
@@ -112,11 +112,11 @@
           <div class="row" style="background-color: rgba(0,0,0,0.7); height: 300px;">
             <div class="col-12">
               <div class="row">
-                <h2 class="mx-auto text-center">Événements</h2>
+                <h2 class="mx-auto text-center wow fadeInDown">Événements</h2>
               </div>
 
               <div class="row">
-                <div class="btn btn-outline-light mx-auto">EN SAVOIR PLUS</div>
+                <div class="btn btn-outline-light mx-auto wow fadeInUp">EN SAVOIR PLUS</div>
               </div>
             </div>
           </div>
@@ -127,7 +127,7 @@
     <section class="testimony-section">
       <div class="container">
         <div class="row">
-          <h1 class="mx-auto text-center mt-5">Témoignages</h1>
+          <h1 class="mx-auto text-center mt-5 wow fadeInLeft">Témoignages</h1>
         </div>
         <div class="row py-5">
           <div id="carouseltesty" class="carousel slide " data-ride="carousel">
@@ -177,7 +177,7 @@
 
         <div class="">
           <div class="card-deck row">
-            <div class="card">
+            <div class="card wow fadeInDown">
               <img src="images/9RdVGN.jpg" class="w-100 img-fluid img-fixed-top">
 
               <div class="card-body">
@@ -190,7 +190,7 @@
               </div>
             </div>
 
-            <div class="card">
+            <div class="card wow fadeInUp">
               <img src="images/9RdVGN.jpg" class="w-100 img-fluid img-fixed-top">
 
               <div class="card-body">
@@ -203,7 +203,7 @@
               </div>
             </div>
 
-            <div class="card">
+            <div class="card wow fadeInDown">
               <img src="images/9RdVGN.jpg" class="w-100 img-fluid img-fixed-top">
 
               <div class="card-body">
