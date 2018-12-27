@@ -21,10 +21,21 @@ $errors = [];
 
 if(!empty($firstname) && !empty($lastname) && !empty($email) && !empty($password)){
 
-    Model::insertUser('users', [$firstname, $lastname, $email, $password]);
+    $row = Model::row('users', $email);
 
-    $errors['fail'] = true;
-    $errors['success'] = 'Vous êtes enregistré!';
+    if($row == 0){
+
+        Model::insertUser('users', [$firstname, $lastname, $email, $password]);
+
+        $errors['fail'] = true;
+        $errors['success'] = 'Vous êtes enregistré!';
+
+    }else{
+
+        $errors['fail'] = true;
+        $errors['errors'] = 'Cet e-mail est existe déjà';
+    }
+
 
 }else{
 

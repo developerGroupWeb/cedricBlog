@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1515caca-a193-4e11-b2dd-5a0422b78654" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Utils/checkSingIn.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Utils/insertUser.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Utils/xss.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/Model.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/singin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/singup.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boutique.php" beforeDir="false" afterPath="$PROJECT_DIR$/boutique.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/singIn.php" beforeDir="false" afterPath="$PROJECT_DIR$/singIn.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/singUp.php" beforeDir="false" afterPath="$PROJECT_DIR$/singUp.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/nav.php" beforeDir="false" afterPath="$PROJECT_DIR$/template/nav.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Utils/insertUser.php" beforeDir="false" afterPath="$PROJECT_DIR$/Utils/insertUser.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,8 +41,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/singin.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="471">
-              <caret line="29" column="17" lean-forward="true" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+            <state relative-caret-position="289">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
         </entry>
@@ -65,20 +56,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Utils/checkSingIn.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="42" column="53" selection-start-line="42" selection-start-column="53" selection-end-line="42" selection-end-column="53" />
+            <state relative-caret-position="199">
+              <caret line="27" column="37" lean-forward="true" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Utils/insertUser.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="182">
+              <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -95,7 +86,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/class/Model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
+            <state relative-caret-position="476">
               <caret line="36" column="39" lean-forward="true" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
               <folding>
                 <element signature="e#6#93#0#PHP" />
@@ -139,13 +130,13 @@
         <option value="$PROJECT_DIR$/Utils/xss.php" />
         <option value="$PROJECT_DIR$/class/CheckSingIn.php" />
         <option value="$PROJECT_DIR$/singIn.php" />
-        <option value="$PROJECT_DIR$/Utils/insertUser.php" />
         <option value="$PROJECT_DIR$/singUp.php" />
         <option value="$PROJECT_DIR$/js/singup.js" />
         <option value="$PROJECT_DIR$/js/singin.js" />
         <option value="$PROJECT_DIR$/class/Model.php" />
         <option value="$PROJECT_DIR$/Utils/checkSingIn.php" />
         <option value="$PROJECT_DIR$/boutique.php" />
+        <option value="$PROJECT_DIR$/Utils/insertUser.php" />
       </list>
     </option>
   </component>
@@ -178,17 +169,7 @@
             <path>
               <item name="cedricBlog" type="b2602c69:ProjectViewProjectNode" />
               <item name="cedricBlog" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cedricBlog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cedricBlog" type="462c0819:PsiDirectoryNode" />
-              <item name="template" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cedricBlog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cedricBlog" type="462c0819:PsiDirectoryNode" />
-              <item name="Utils" type="462c0819:PsiDirectoryNode" />
+              <item name="class" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -227,12 +208,12 @@
       <updated>1545913710444</updated>
       <workItem from="1545913713027" duration="686000" />
       <workItem from="1545916109786" duration="6824000" />
-      <workItem from="1545925368947" duration="10772000" />
+      <workItem from="1545925368947" duration="12377000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18282000" />
+    <option name="totallyTimeSpent" value="19887000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -335,30 +316,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/singin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="29" column="17" lean-forward="true" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/class/Model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="36" column="39" lean-forward="true" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
-          <folding>
-            <element signature="e#6#93#0#PHP" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Utils/insertUser.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/boutique.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -366,10 +323,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/class/Model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="36" column="39" lean-forward="true" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
+          <folding>
+            <element signature="e#6#93#0#PHP" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Utils/checkSingIn.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="42" column="53" selection-start-line="42" selection-start-column="53" selection-end-line="42" selection-end-column="53" />
+        <state relative-caret-position="199">
+          <caret line="27" column="37" lean-forward="true" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/singin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Utils/insertUser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
         </state>
       </provider>
     </entry>
