@@ -1,4 +1,6 @@
- <div class="d-none d-md-block">
+ <script scr="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<div class="d-none d-md-block">
       <nav class="navbar navbar-expand nav1 navbar-dark">
         <div class="navbar-collapse">
           <ul class="navbar-nav mr-auto">
