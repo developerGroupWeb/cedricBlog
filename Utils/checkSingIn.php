@@ -27,7 +27,7 @@ if(!empty($email)){
 
            foreach ($user as $value){
 
-               if (!password_verify($pass, $value['password'])) {
+               if (password_verify($pass, $value['password'])) {
 
                    session_start();
                    $_SESSION['firstname'] = $value['firstname'];
