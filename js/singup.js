@@ -22,7 +22,7 @@ $(function(){
             alertMessage(this, '.error-first_name', 'Caractères non autorisé');
             error_first_name = false;
 
-        }else if(first_name.length < 6){
+        }else if(first_name.length < 2){
 
             alertMessage(this, '.error-first_name', 'Taper 6 caractères au moins');
             error_first_name = false;
@@ -49,7 +49,7 @@ $(function(){
             alertMessage(this, '.error-last_name', 'Caractères non autorisé');
             error_last_name = false;
 
-        }else if(last_name.length < 6){
+        }else if(last_name.length < 3){
 
             alertMessage(this, '.error-last_name', 'Taper 6 caractères au moins');
             error_last_name = false;

@@ -9,8 +9,8 @@
 <body>
 	<?php include 'template/nav.php' ?>
 
-	<section class="contact-uc-section">
-		<div style="background-color: rgba(0,0,0,0.8);" class="py-5 px-2">
+	<section class="contact-us-section">
+		<div style="background-color: rgba(0,0,0,0.8); padding-top: 200px;" class="pb-5 px-2">
 			<div  class="container">
 				<div class="row">
 					<div class="col-md-6 p-5 bg-light">

@@ -1,7 +1,3 @@
-<?php
-session_start();
-if(isset($_SESSION['firstname'])) {?>
-
 
     <!doctype html>
     <html lang="en">
@@ -14,14 +10,14 @@ if(isset($_SESSION['firstname'])) {?>
     <body>
     <?php include 'template/nav.php' ?>
 
-    <section class="boutique-section">
+    <section class="boutique-section" style="padding-top: 120px;">
         <div class="img-bg text-center text-uppercase">
             <h1>La boutique</h1>
         </div>
 
         <div class="container py-5">
             <div class="row px-2">
-               <?= $_SESSION['firstname'].' '.$_SESSION['lastname']?>
+               
             </div>
         </div>
     </section>
@@ -30,9 +26,3 @@ if(isset($_SESSION['firstname'])) {?>
     <?php include 'pills/jsLink.php' ?>
     </body>
     </html>
-    <?php
-
-
-
-}else
-header('Location:index.php');

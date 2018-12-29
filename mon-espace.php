@@ -1,3 +1,8 @@
+<?php
+session_start();
+if(isset($_SESSION['firstname'])) {?>
+
+
 <!doctype html>
 <html lang="en">
 	<head>
@@ -135,3 +140,9 @@
 	<?php include 'pills/jsLink.php' ?>
 </body>
 </html>
+    <?php
+
+
+
+}else
+header('Location:index.php');

@@ -1,11 +1,12 @@
  <script scr="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-<div class="d-none d-md-block">
+<div class="all-nav fixed-top">
+    <div class="d-none d-md-block">
       <nav class="navbar navbar-expand nav1 navbar-dark">
         <div class="navbar-collapse">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+              <a class="nav-link" href="https://www.facebook.com/agossou.cedrich.euloge"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
@@ -40,7 +41,7 @@
       </nav>
     </div>
 
-    <div class="nav2 sticky-top">
+    <div class="nav2">
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="index.php"><h1>CEDRIC</h1></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -58,15 +59,15 @@
             <li class="nav-item">
               <a class="nav-link" href="événements.php">Événements</a>
             </li>
-            <li class="nav-item btn-group dropdown">
+            <li class="nav-item">
               <a class="nav-link" href="boutique.php">La boutique</a>
-              <a class="nav-link dropdown-toggle dropdown-toggle-split" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="cursor: pointer;">
+              <!--<a class="nav-link dropdown-toggle dropdown-toggle-split" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="cursor: pointer;">
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <a class="dropdown-item" href="#">Audios</a>
                 <a class="dropdown-item" href="#">Vidéos</a>
                 <a class="dropdown-item" href="#">Livres</a>
-              </div>
+              </div>-->
             </li>
           </ul>
 
@@ -89,3 +90,4 @@
         </div>
       </nav>
     </div>
+</div>

@@ -2,13 +2,14 @@ body{
 background-color: ;
 }
 
-.nav-brand{
-
-}
-
 @media(max-width: 768px) {
 	.navbar-brand h1{
-		font-size: 30px;
+		font-size: 27px;
+	}
+
+	.nav2{
+		padding-top: 0px;
+		padding-bottom: 0px;
 	}
 }
 
@@ -24,17 +25,34 @@ background-color: ;
 }
 
 .home-section{
-	background-image: url(../images/index.jpg);
-	background-repeat: no-repeat;
 	height: 100vh;
-	color: #fff;
+	background-image: url(../images/images78547.jpg);
+	background-repeat: no-repeat;
 	background-size: cover;
-	background-attachment: fixed;
+}
+
+.home-section video{
+	min-width: 100%;
+	position: absolute;
+	height: 100vh;
+	top: 0;
+	right: 0;
+}
+
+.home-section .content-hero{
+	background-color: rgba(0,0,0,0.7);
+	height: 100vh;
+	position: absolute;
+	z-index: 10;
+	top: 0;
+	right: 0;
+	min-width: 100%;
 }
 
 .home-section h1{
 	font-size: 100px;
-	margin-top: 10%;
+	color: #fff;
+	margin-top: 180px;
 }
 
 .section-about{
@@ -49,13 +67,12 @@ background-color: ;
 }
 
 .testimony-section .content{
-	padding-left: 100px;
-	padding-right: 100px;
+
 }
 
 @media(max-width: 576px) {
 	.section-about img{
-		height: 160px;
+		height: 200px;
 		width: 100%;
 	}
 
@@ -96,11 +113,13 @@ background-color: ;
 @media(min-width: 767.99px) and (max-width: 992px) {
 	.home-section h1{
 	font-size: 60px;
-	margin-top: 130px;
+	margin-top: 150px;
 	}
 
-	.home-section{
-		height: 70vh;
+	.home-section,
+	.home-section .content-hero,
+	.home-section video{
+		height: 80vh;
 	}
 }
 
@@ -110,12 +129,18 @@ background-color: ;
 	padding: 5px;
 	}
 
-	.home-section h1{
-	font-size: 32px;
-	margin-top: 100px;
+	.home-section{
+		background-image: url(../images/images78547.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
 	}
 
-	.home-section{
+	.home-section h1{
+	font-size: 30px;
+	margin-top: 150px;
+	}
+
+	.home-section, .home-section .content-hero{
 		height: 50vh;
 	}
 }
@@ -136,7 +161,7 @@ footer a:hover,footer .a:hover{
 	color: #00ace6;
 }
 
-.contact-uc-section{
+.contact-us-section{
 	background-image: url(../images/teleconseilliere_0.jpg);
 	background-size: cover;
 	background-attachment: fixed;

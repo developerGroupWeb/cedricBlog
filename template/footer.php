@@ -11,13 +11,13 @@
             <a class="nav-link text-center text-md-left row a" href="coaching.php">Coaching</a>
           </div>
           <div class="col-6 col-lg-3">
-            <a class="nav-link text-center text-md-left row a" href="#">Formations</a>
+            <a class="nav-link text-center text-md-left row a" href="formations.php">Formations</a>
           </div>
           <div class="col-6 col-lg-3">
-            <a class="nav-link text-center text-md-left row a" href="#">La boutique</a>
+            <a class="nav-link text-center text-md-left row a" href="événements.php">La boutique</a>
           </div>
           <div class="col-6 col-lg-3">
-            <a class="nav-link text-center text-md-left row a" href="#">Événements</a>
+            <a class="nav-link text-center text-md-left row a" href="boutique.php">Événements</a>
           </div>
         </div>
 
@@ -25,7 +25,7 @@
 
         <div class="row">
           <div class="col-sm-6 text-white">© 2018 Mc Cedric Ent.</div>
-          <div class="col-sm-6 text-sm-right"><a href="">Confidentialité et Vie privée</a></div>
+          <div class="col-sm-6 text-sm-right"><a href="#">Confidentialité et Vie privée</a></div>
         </div>
       </div>
     </div>

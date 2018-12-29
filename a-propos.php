@@ -9,7 +9,7 @@
 <body>
 	<?php include 'template/nav.php' ?>
 
-	<section class="a-propos-section  py-5" style="background-image: url(images/rtyyw.jpg);">
+	<section class="a-propos-section  pb-5" style="background-image: url(images/rtyyw.jpg); padding-top: 180px;">
 		<div class="container py-4 shadow" style="border: 10px solid #000; border-radius: 30px;">
 			<div class="row">
 				<h1 class="px-4 mx-auto mx-md-0">À propos</h1>
