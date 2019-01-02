@@ -7,16 +7,25 @@ require_once 'Utils/insertWithPhp.php';
 	<!-- Required meta tags -->
 	<?php include 'pills/cssLink.php' ?>
 
-	<title>coaching</title>
+	<title>SingUp</title>
 	</head>
 <body>
 	<?php include 'template/nav.php' ?>
 
-    <?= isset($validator->errors['success'])? "<div class='alert alert-info'>$validator->errors['success']</div>": ''?>
-    <?= isset($validator->errors['errors'])? "<div class='alert alert-danger'>$validator->errors['errors']</div>": ''?>
-    <div class="process" style="display: none; color: gold"></div>
 
-	<div  class="px-5 col-sm-8 offset-sm-2 col-lg-4 offset-lg-4 my-5 bg-light py-4" style="border-top: 4px solid #00ace6;">
+
+
+
+<div style="margin-top: 180px;">
+
+	<div  class="px-5 col-sm-8 offset-sm-2 col-lg-4 offset-lg-4 my-5 bg-light py-4" style="border-top: 4px solid #00ace6; padding-top: 180px;">
+
+        <?= isset($validator->errors['success'])? "<div class='alert alert-info'>Vous êtes enregistré!</div>": ''?>
+        <?= isset($validator->errors['err'])? "<div class='alert alert-danger'>Cet e-mail est existe déjà</div>": ''?>
+        <div class='alert alert-danger' id="danger" style="display: none"></div>
+        <div class="process" style="display: none; color: gold"></div>
+
+
 		<div class="row"><h4 class="text-center mx-auto text-uppercase">Créer un compte</h4></div>
 
 		<form class="" action="" method="post" id="formSubmit">
@@ -46,6 +55,7 @@ require_once 'Utils/insertWithPhp.php';
 
 		<div class="row mt-4"><a href="singIn.php" class="btn btn-outline-primary w-100 text-uppercase">Se connecter</a></div>
 	</div>
+</div>
 
 	<?php include 'template/footer.php' ?>
 

@@ -5,14 +5,16 @@
     <!-- Required meta tags -->
     <?php include 'pills/cssLink.php' ?>
 
-    <title>Cedric</title>
+    <title>Cedric AGOSSOU - Coach professionnel, Entrepreneur et Motivateur</title>
   </head>
   <body>
 
     <?php include 'template/nav.php' ?>
 
     <section class="home-section">
-      <div class="" style="background-color: rgba(0,0,0,0.7); height: 100vh;">
+      <video src="images/SearchLeeds 2018 Official Event Video.mp4" autoplay muted loop class="w-100 d-none d-md-block"></video>
+
+      <div class="content-hero">
         <div class="container">
           <div class="row">
             <h1 class="mx-auto text-center wow fadeInDown">Transformez votre vie par la puissance de votre pensée!</h1>
@@ -47,27 +49,30 @@
       </div>
     </section>
 
-    <section  class="vide-heros">
+    <!--<section  class="vide-heros">
       <div>
         <video src="images/FallyIpupa.mp4" autoplay muted loop controls class="w-100"></video>
       </div>
-    </section>
+    </section>-->
 
     <section class="section-newsletters bg-primary py-5">
       <div class="col-lg-8 offset-lg-2">
         <div class="row mb-4">
-          <h2 class="mx-auto text-center text-white font-weight-bold">Recevez une capsule gratuit de Cedric</h2>
+          <h2 class="mx-auto text-center text-white font-weight-bold">Recevez la chronique gratuit de Cedric</h2>
         </div>
         <div class="">
-          <form class="row" method="post" action="traitement">
+          <form class="row" method="post" action="" id="formChronic">
             <div class="form-group col-sm-4 col-10 offset-1 offset-sm-0">
-              <input type="name" id="fName" placeholder="Votre prenom..." class="form-control">
+              <input type="text" name="first_name" id="first_name" placeholder="Votre prenom..." class="form-control">
+                <span class="error-first_name" style="color: red; font-style: italic; display: none"></span>
             </div>
             <div class="form-group col-sm-4 col-10 offset-1 offset-sm-0">
-              <input type="name" id="lName" placeholder="Votre nom..." class="form-control">
+              <input type="text" name="last_name" id="last_name" placeholder="Votre nom..." class="form-control">
+                <span class="error-last_name" style="color: red; font-style: italic; display: none"></span>
             </div>
             <div class="form-group col-sm-4 col-10 offset-1 offset-sm-0">
-              <input type="email" id="email" placeholder="Votre email..." class="form-control">
+              <input type="email" name="email" id="email" placeholder="Votre email..." class="form-control">
+                <span class="error-email" style="color: red; font-style: italic; display: none"></span>
             </div>
 
             <div class="col-md-4 offset-md-4 col-sm-6 offset-sm-3 col-10 offset-1">
@@ -90,7 +95,7 @@
               </div>
 
               <div class="row">
-                <div class="btn btn-outline-light mx-auto wow fadeInUp">EN SAVOIR PLUS</div>
+                <a href="formations.php" class="btn btn-outline-light mx-auto wow fadeInUp">EN SAVOIR PLUS</a>
               </div>
             </div>
           </div>
@@ -103,7 +108,7 @@
               </div>
 
               <div class="row">
-                <div class="btn btn-outline-light mx-auto wow fadeInUp">EN SAVOIR PLUS</div>
+                <a href="coaching.php" class="btn btn-outline-light mx-auto wow fadeInUp">EN SAVOIR PLUS</a>
               </div>
             </div>
           </div>
@@ -116,7 +121,7 @@
               </div>
 
               <div class="row">
-                <div class="btn btn-outline-light mx-auto wow fadeInUp">EN SAVOIR PLUS</div>
+                <a href="événements.php" class="btn btn-outline-light mx-auto wow fadeInUp">EN SAVOIR PLUS</a>
               </div>
             </div>
           </div>
@@ -124,16 +129,16 @@
       </div>
     </section>
 
-    <section class="testimony-section">
+    <!--<section class="testimony-section">
       <div class="container">
         <div class="row">
-          <h1 class="mx-auto text-center mt-5 wow fadeInLeft">Témoignages</h1>
+          <h1 class="mx-auto text-center mt-5 mb-4 wow fadeInLeft">Témoignages</h1>
         </div>
-        <div class="row py-5">
+        <div class="row pb-5">
           <div id="carouseltesty" class="carousel slide " data-ride="carousel">
             <div class="carousel-inner content">
               <div class="carousel-item active">
-                <h5 class="mx-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                <h5 class="mx-lg-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
                 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -141,13 +146,13 @@
                 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h5>
               </div>
               <div class="carousel-item">
-                <h5 class="mx-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                <h5 class="mx-lg-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
                 </h5>
               </div>
               <div class="carousel-item">
-                <h5 class="mx-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                <h5 class="mx-lg-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
                 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -167,9 +172,9 @@
           </div>
         </div>
       </div>
-    </section>
+    </section>-->
 
-    <section class="bg-light py-5">
+    <!--<section class="bg-light py-5">
       <div class="container">
         <div class="row">
           <h1 class="mx-auto text-center mb-4 font-weight-bold">Les derniers articles parus</h1>
@@ -177,7 +182,7 @@
 
         <div class="">
           <div class="card-deck row">
-            <div class="card wow fadeInDown">
+            <div class="card">
               <img src="images/9RdVGN.jpg" class="w-100 img-fluid img-fixed-top">
 
               <div class="card-body">
@@ -190,7 +195,7 @@
               </div>
             </div>
 
-            <div class="card wow fadeInUp">
+            <div class="card">
               <img src="images/9RdVGN.jpg" class="w-100 img-fluid img-fixed-top">
 
               <div class="card-body">
@@ -203,7 +208,7 @@
               </div>
             </div>
 
-            <div class="card wow fadeInDown">
+            <div class="card">
               <img src="images/9RdVGN.jpg" class="w-100 img-fluid img-fixed-top">
 
               <div class="card-body">
@@ -218,10 +223,11 @@
           </div>
         </div>
       </div>
-    </section>
+    </section>-->
 
     <?php include 'template/footer.php' ?>
 
    <?php include 'pills/jsLink.php' ?>
+  <script src="js/index.js"></script>
   </body>
 </html>

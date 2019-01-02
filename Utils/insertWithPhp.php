@@ -22,17 +22,23 @@ if(isset($_POST['submit'])){
     $validator-> mdp_check('password');
 
     if(count($validator->errors) == 0){
+       echo count($validator->errors);
 
         $row = Model::row('users', $validator->inputEmail('email'));
         if($row == 0){
 
-            Model::insertUser('users', [$validator->inputText('first_name'), $validator->inputText('last_name'), $validator->inputEmail('email'), $validator->inputPassword('password')]);
+            Model::insertUser('users', [$validator->inputText('first_name'), $validator->inputText('last_name'), $validator->inputEmail('email'), sha1($validator->inputPassword('password'))]);
 
-            $errors['success'] = 'Vous êtes enregistré!';
+            $validator->errors['success'] = 'Vous êtes enregistré!';
+
+            session_start();
+            $_SESSION['first_name'] = $validator->inputText('first_name');
+            $_SESSION['last_name']  = $validator->inputText('last_name');
+            header('Location:mon-espace.php');
 
         }else{
 
-            $errors['errors'] = 'Cet e-mail est existe déjà';
+            $validator->errors['err'] = 'Cet e-mail est existe déjà';
         }
     }
 }

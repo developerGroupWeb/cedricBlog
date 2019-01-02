@@ -1,7 +1,4 @@
-
-
-
-    <!doctype html>
+ <!doctype html>
     <html lang="en">
     <head>
         <!-- Required meta tags -->
@@ -12,14 +9,13 @@
     <body>
     <?php include 'template/nav.php' ?>
 
-    <section class="boutique-section">
+    <section class="boutique-section" style="">
         <div class="img-bg text-center text-uppercase">
             <h1>La boutique</h1>
         </div>
 
         <div class="container py-5">
             <div class="row px-2">
-
             </div>
         </div>
     </section>
@@ -28,7 +24,6 @@
     <?php include 'pills/jsLink.php' ?>
     </body>
     </html>
-    <?php
-
+ 
 
 

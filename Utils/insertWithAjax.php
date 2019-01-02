@@ -30,6 +30,10 @@ if(!empty($firstname) && !empty($lastname) && !empty($email) && !empty($password
         $errors['fail'] = true;
         $errors['success'] = 'Vous êtes enregistré!';
 
+        session_start();
+        $_SESSION['first_name'] = $firstname;
+        $_SESSION['last_name']  = $lastname;
+
     }else{
 
         $errors['fail'] = true;

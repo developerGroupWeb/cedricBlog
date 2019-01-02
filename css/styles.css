@@ -2,13 +2,14 @@ body{
 background-color: ;
 }
 
-.nav-brand{
-
-}
-
 @media(max-width: 768px) {
 	.navbar-brand h1{
-		font-size: 30px;
+		font-size: 27px;
+	}
+
+	.nav2{
+		padding-top: 0px;
+		padding-bottom: 0px;
 	}
 }
 
@@ -24,17 +25,37 @@ background-color: ;
 }
 
 .home-section{
-	background-image: url(../images/index.jpg);
-	background-repeat: no-repeat;
 	height: 100vh;
-	color: #fff;
+	background-image: url(../images/images78547.jpg);
+	background-repeat: no-repeat;
 	background-size: cover;
-	background-attachment: fixed;
+}
+
+.home-section video{
+	position: absolute;
+	height: 100vh;
+	min-width: 100%;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	z-index: 0;
+}
+
+.home-section .content-hero{
+	position: absolute;
+	height: 100vh;
+	min-width: 100%;
+	background-color: rgba(0,0,0,0.6);
+	top: 0;
+	right: 0;
+	z-index: 10;
 }
 
 .home-section h1{
 	font-size: 100px;
-	margin-top: 10%;
+	color: #fff;
+	margin-top: 180px;
 }
 
 .section-about{
@@ -49,13 +70,12 @@ background-color: ;
 }
 
 .testimony-section .content{
-	padding-left: 100px;
-	padding-right: 100px;
+
 }
 
 @media(max-width: 576px) {
 	.section-about img{
-		height: 160px;
+		height: 200px;
 		width: 100%;
 	}
 
@@ -96,11 +116,13 @@ background-color: ;
 @media(min-width: 767.99px) and (max-width: 992px) {
 	.home-section h1{
 	font-size: 60px;
-	margin-top: 130px;
+	margin-top: 150px;
 	}
 
-	.home-section{
-		height: 70vh;
+	.home-section,
+	.home-section .content-hero,
+	.home-section video{
+		height: 80vh;
 	}
 }
 
@@ -110,13 +132,19 @@ background-color: ;
 	padding: 5px;
 	}
 
-	.home-section h1{
-	font-size: 32px;
-	margin-top: 100px;
+	.home-section{
+		background-image: url(../images/images78547.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
 	}
 
-	.home-section{
-		height: 50vh;
+	.home-section h1{
+	font-size: 30px;
+	margin-top: 200px;
+	}
+
+	.home-section, .home-section .content-hero{
+		height: 400px;
 	}
 }
 
@@ -136,7 +164,7 @@ footer a:hover,footer .a:hover{
 	color: #00ace6;
 }
 
-.contact-uc-section{
+.contact-us-section{
 	background-image: url(../images/teleconseilliere_0.jpg);
 	background-size: cover;
 	background-attachment: fixed;
@@ -164,6 +192,14 @@ footer a:hover,footer .a:hover{
 	}
 }
 
+.coaching-section,
+.boutique-section,
+.event-section,
+.formation-section
+{
+	padding-top: 120px;
+}
+
 .coaching-section .img-bgd{
 	background-image: url(../images/find_your_purpose_1200x627.jpg);
 	background-size: cover;
@@ -174,11 +210,12 @@ footer a:hover,footer .a:hover{
 }
 
 .coaching-section .img-bgd h1,
-.formation-section .img-bg h1,
+.formation-section .img-bg .home,
 .event-section .img-bg h1,
 .boutique-section .img-bg h1{
 	background-color: rgba(0,0,0,0.8);
-	padding: 150px 0px 150px 0px;
+	padding-top: 150px;
+	padding-bottom: 150px;
 }
 
 .formation-section .img-bg{
@@ -214,7 +251,15 @@ footer a:hover,footer .a:hover{
 	.event-section .img-bg h1,
 	.boutique-section .img-bg h1{
 		font-size: 30px;
-		padding: 50px 0px 50px 0px;
+		padding: 80px 0px 80px 0px;
+	}
+
+	.coaching-section,
+	.boutique-section,
+	.event-section,
+	.formation-section
+	{
+		padding-top: 70px;
 	}
 }
 

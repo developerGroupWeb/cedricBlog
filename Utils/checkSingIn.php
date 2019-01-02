@@ -30,13 +30,12 @@ if(!empty($email)){
 
                if ($pass === $value['password']) {
 
-                   session_start();
-                   $_SESSION['firstname'] = $value['firstname'];
-                   $_SESSION['lastname'] = $value['lastname'];
-
-
                    $errors['fail'] = false;
                    $errors['success'] = 'success';
+
+                   session_start();
+                   $_SESSION['first_name'] = $value['firstname'];
+                   $_SESSION['last_name']  = $value['lastname'];
 
                } else {
 

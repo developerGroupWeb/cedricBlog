@@ -1,12 +1,14 @@
 <?php
 session_start();
-if(isset($_SESSION['firstname']) && isset($_SESSION['lastname'])) {?>
+if(isset($_SESSION['first_name']) && isset($_SESSION['last_name'])) {?>
+
 
 <!doctype html>
 <html lang="en">
 	<head>
 	<!-- Required meta tags -->
 	<?php include 'pills/cssLink.php' ?>
+
 
 	<title>Mon espace</title>
         <script scr="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -124,7 +126,7 @@ if(isset($_SESSION['firstname']) && isset($_SESSION['lastname'])) {?>
 
 				<div class="col-10 col-md-8 col-lg-9 w-100">
 					<div class="row">
-                        <?= $_SESSION['firstname'].' '.$_SESSION['lastname']?>
+                        <?= $_SESSION['first_name'].' '.$_SESSION['last_name']?>
 					</div>
 				</div>
 			</div>
@@ -136,6 +138,7 @@ if(isset($_SESSION['firstname']) && isset($_SESSION['lastname'])) {?>
 <script src="js/logout.js"></script>
 </body>
 </html>
+
 
 <?php
 }else

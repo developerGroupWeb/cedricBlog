@@ -22,9 +22,10 @@ $(function(){
             alertMessage(this, '.error-first_name', 'Caractères non autorisé');
             error_first_name = false;
 
-        }else if(first_name.length < 5){
 
-            alertMessage(this, '.error-first_name', 'Taper 6 caractères au moins');
+        }else if(first_name.length < 3){
+
+            alertMessage(this, '.error-first_name', 'Taper 3 caractères au moins');
             error_first_name = false;
 
         }else{
@@ -49,9 +50,9 @@ $(function(){
             alertMessage(this, '.error-last_name', 'Caractères non autorisé');
             error_last_name = false;
 
-        }else if(last_name.length < 6){
+        }else if(last_name.length < 3){
 
-            alertMessage(this, '.error-last_name', 'Taper 6 caractères au moins');
+            alertMessage(this, '.error-last_name', 'Taper 3 caractères au moins');
             error_last_name = false;
 
         }else{
@@ -105,15 +106,15 @@ $(function(){
 
     $(document).on('submit', '#formSubmit', function () {
         var form = $(this);
-        var name =  form.find('#first_name').val();
+        var first_name =  form.find('#first_name').val();
         var email = form.find('#email').val();
-        var phone = form.find('#last_name').val();
-        var message = form.find('#password').val();
+        var last_name = form.find('#last_name').val();
+        var password = form.find('#password').val();
 
 
         if (error_first_name === false || error_email === false || error_last_name === false || error_password === false) {
 
-            if (name === '') {
+            if (first_name === '') {
 
                 $('.error-first_name').html('Ce champs est obligatoire').show();
             }
@@ -121,22 +122,24 @@ $(function(){
             if (email === '') {
                 $('.error-email').html('Ce champs est obligatoire').show();
             }
-            if (phone === '') {
+            if (last_name === '') {
                 $('.error-last_name').html('Ce champs est obligatoire').show();
             }
-            if (message === '') {
+            if (password === '') {
                 $('.error-password').html('Ce champs est obligatoire').show();
             }
 
-            //return false;
+            return false;
+
         }else{
 
-            /*$.ajax({
+            $.ajax({
                 url: 'Utils/insertWithAjax.php',
                 type: 'POST',
                 dataType: 'json',
                 data:$(this).serialize(),
                 async :true,
+                cache: false,
                 beforeSend: function () {
                     //$('.process').html('En cours de traitement ....').show();
                 },
@@ -144,20 +147,22 @@ $(function(){
 
                    if(data.errors){
 
-                       $('.alert-danger').html(data.errors).show();
+                       $('#danger').html(data.errors).show();
                        $('.alert-info').hide();
 
                     }else if(data.success){
 
-                       $('.alert-info').html(data.success).show();
-                       $('.alert-danger').hide();
-                       $('#first_name').add(' #email, #password, #last_name').val('');
+                       window.location.href = 'mon-espace.php';
+
+                       //$('.alert-info').html(data.success).show();
+                       //$('.alert-danger').hide();
+                       //$('#first_name').add(' #email, #password, #last_name').val('');
                    }
 
                 }
 
-            });*/
-            return true;
+            });
+            return false;
         }
     });
     //alert('test');

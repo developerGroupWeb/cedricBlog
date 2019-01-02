@@ -48,6 +48,15 @@ abstract class Model
         }
     }
 
+    static function insertUserChronic($table, $data = []){
+
+        if($data != null){
+
+            $query = self::getDb()->prepare("INSERT INTO $table(firstname, lastname, email) VALUES(?, ?, ?)");
+            $query->execute($data);
+        }
+    }
+
      static function getAll($table)
     {
         $var   = array();

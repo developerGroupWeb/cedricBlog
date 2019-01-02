@@ -1,27 +1,25 @@
  <script scr="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-<div class="d-none d-md-block">
+<div class="all-nav fixed-top">
+    <div class="d-none d-md-block">
       <nav class="navbar navbar-expand nav1 navbar-dark">
         <div class="navbar-collapse">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+              <a class="nav-link" href="https://www.facebook.com/Cedric-H-Agossou-Officiel-2078390082178427/" title="Cedric-H-Agossou-Officiel" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+              <a class="nav-link" href="https://www.youtube.com/channel/UC3dHtraLLx03Tra5yhYffew/featured?view_as=subscriber" title="Cedric Agossou youtube" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+              <a class="nav-link" href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
             </li>
             <li>
               <a href="" class="nav-link"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
             </li>
 
             <li>
-              <a href="" class="nav-link">xxxxxxxxxx</a>
-            </li>
-            <li>
-              <a href="" class="nav-link">xxxxxxxxxxx</a>
+              <a href="" class="nav-link">+1 3194716087</a>
             </li>
           </ul>
    
@@ -40,7 +38,7 @@
       </nav>
     </div>
 
-    <div class="nav2 sticky-top">
+    <div class="nav2">
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="index.php"><h1>CEDRIC</h1></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -89,3 +87,4 @@
         </div>
       </nav>
     </div>
+</div>

@@ -16,7 +16,7 @@ class Validator
 
             return $this->var = $_POST[$string];
         }
-        return $this->var;
+        return e($this->var);
     }
 
     function inputEmail($string)
@@ -25,7 +25,7 @@ class Validator
 
             return $this->var = $_POST[$string];
         }
-        return $this->var;
+        return e($this->var);
     }
 
     function inputPassword($string)
@@ -34,7 +34,7 @@ class Validator
 
             return $this->var = $_POST[$string];
         }
-        return $this->var;
+        return e($this->var);
     }
 
     function mdp_check($string){
