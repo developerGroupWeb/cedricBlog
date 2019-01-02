@@ -23,5 +23,16 @@ if(isset($_POST['submit'])){
 
     if(count($validator->errors) == 0){
 
+        $row = Model::row('users', $validator->inputEmail('email'));
+        if($row == 0){
+
+            Model::insertUser('users', [$validator->inputText('first_name'), $validator->inputText('last_name'), $validator->inputEmail('email'), $validator->inputPassword('password')]);
+
+            $errors['success'] = 'Vous êtes enregistré!';
+
+        }else{
+
+            $errors['errors'] = 'Cet e-mail est existe déjà';
+        }
     }
 }

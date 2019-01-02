@@ -12,8 +12,8 @@ require_once 'Utils/insertWithPhp.php';
 <body>
 	<?php include 'template/nav.php' ?>
 
-    <div class="alert alert-info" style="display: none"></div>
-    <div class="alert alert-danger" style="display: none"></div>
+    <?= isset($validator->errors['success'])? "<div class='alert alert-info'>$validator->errors['success']</div>": ''?>
+    <?= isset($validator->errors['errors'])? "<div class='alert alert-danger'>$validator->errors['errors']</div>": ''?>
     <div class="process" style="display: none; color: gold"></div>
 
 	<div  class="px-5 col-sm-8 offset-sm-2 col-lg-4 offset-lg-4 my-5 bg-light py-4" style="border-top: 4px solid #00ace6;">

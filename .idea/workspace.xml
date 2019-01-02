@@ -2,18 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1515caca-a193-4e11-b2dd-5a0422b78654" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Utils/insertWithPhp.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/Validator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/logout.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logout.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Utils/checkSingIn.php" beforeDir="false" afterPath="$PROJECT_DIR$/Utils/checkSingIn.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Utils/insertUser.php" beforeDir="false" afterPath="$PROJECT_DIR$/Utils/insertWithAjax.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Utils/xss.php" beforeDir="false" afterPath="$PROJECT_DIR$/Utils/xss.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boutique.php" beforeDir="false" afterPath="$PROJECT_DIR$/boutique.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/singin.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/singin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/singup.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/singup.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mon-espace.php" beforeDir="false" afterPath="$PROJECT_DIR$/mon-espace.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Utils/insertWithPhp.php" beforeDir="false" afterPath="$PROJECT_DIR$/Utils/insertWithPhp.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class/Model.php" beforeDir="false" afterPath="$PROJECT_DIR$/class/Model.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class/Validator.php" beforeDir="false" afterPath="$PROJECT_DIR$/class/Validator.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/singUp.php" beforeDir="false" afterPath="$PROJECT_DIR$/singUp.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,10 +17,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Utils/checkSingIn.php">
+        <entry file="file://$PROJECT_DIR$/Utils/insertWithAjax.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="357">
+              <caret line="39" column="6" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -36,8 +28,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Utils/insertWithPhp.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+            <state relative-caret-position="321">
+              <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -45,8 +37,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/singUp.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="34" column="30" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
+            <state relative-caret-position="357">
+              <caret line="21" column="63" lean-forward="true" selection-start-line="21" selection-start-column="63" selection-end-line="21" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -63,8 +55,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/class/Validator.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1428">
-              <caret line="89" selection-start-line="89" selection-end-line="89" />
+            <state relative-caret-position="969">
+              <caret line="62" column="19" selection-start-line="62" selection-start-column="19" selection-end-line="62" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -95,8 +87,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/class/Model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+            <state relative-caret-position="-51">
+              <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
               <folding>
                 <element signature="e#6#93#0#PHP" />
               </folding>
@@ -133,7 +125,6 @@
         <option value="$PROJECT_DIR$/class/Utils.php" />
         <option value="$PROJECT_DIR$/class/CheckSingIn.php" />
         <option value="$PROJECT_DIR$/singIn.php" />
-        <option value="$PROJECT_DIR$/class/Model.php" />
         <option value="$PROJECT_DIR$/boutique.php" />
         <option value="$PROJECT_DIR$/logout.php" />
         <option value="$PROJECT_DIR$/js/logout.js" />
@@ -143,8 +134,9 @@
         <option value="$PROJECT_DIR$/Utils/insertUser.php" />
         <option value="$PROJECT_DIR$/js/singup.js" />
         <option value="$PROJECT_DIR$/Utils/xss.php" />
-        <option value="$PROJECT_DIR$/class/Validator.php" />
+        <option value="$PROJECT_DIR$/class/Model.php" />
         <option value="$PROJECT_DIR$/singUp.php" />
+        <option value="$PROJECT_DIR$/class/Validator.php" />
         <option value="$PROJECT_DIR$/Utils/insertWithPhp.php" />
       </list>
     </option>
@@ -174,6 +166,11 @@
               <item name="cedricBlog" type="b2602c69:ProjectViewProjectNode" />
               <item name="cedricBlog" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="cedricBlog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cedricBlog" type="462c0819:PsiDirectoryNode" />
+              <item name="Utils" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -183,7 +180,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ajaxLaravel" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../webagence" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
@@ -221,18 +218,19 @@
       <workItem from="1545983539325" duration="6245000" />
       <workItem from="1546295244712" duration="6437000" />
       <workItem from="1546328927765" duration="8168000" />
-      <workItem from="1546406943202" duration="1185000" />
+      <workItem from="1546406943202" duration="2958000" />
+      <workItem from="1546412453009" duration="2460000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42383000" />
+    <option name="totallyTimeSpent" value="46616000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16263238" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16490166" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -324,24 +322,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Utils/insertWithAjax.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Utils/checkSingIn.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/singUp.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="30" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -369,16 +353,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/class/Model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
-          <folding>
-            <element signature="e#6#93#0#PHP" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/singup.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2618">
@@ -386,17 +360,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Utils/insertWithAjax.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="39" column="6" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class/Model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-51">
+          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+          <folding>
+            <element signature="e#6#93#0#PHP" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/class/Validator.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1428">
-          <caret line="89" selection-start-line="89" selection-end-line="89" />
+        <state relative-caret-position="969">
+          <caret line="62" column="19" selection-start-line="62" selection-start-column="19" selection-end-line="62" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/singUp.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="63" lean-forward="true" selection-start-line="21" selection-start-column="63" selection-end-line="21" selection-end-column="63" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Utils/insertWithPhp.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+        <state relative-caret-position="321">
+          <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
         </state>
       </provider>
     </entry>

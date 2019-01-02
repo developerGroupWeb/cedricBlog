@@ -11,7 +11,7 @@ abstract class Model
 
     private static function setDb()
     {
-        self::$_db = new PDO('mysql:host=127.0.0.1; dbname=sedric; charset=utf8', 'root', '');
+        self::$_db = new PDO('mysql:host=127.0.0.1; dbname=cedric; charset=utf8', 'root', '');
         self::$_db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_WARNING);
     }
 

@@ -58,9 +58,9 @@ class Validator
 
         if($this->inputText($string) != ''){
 
-            if(!strlen($this->inputText($string)) >= 4){
+            if(strlen($this->inputText($string)) >= 4){
 
-                if(!holds_string($this->inputText($string))){
+                if(holds_string($this->inputText($string))){
 
 
 
