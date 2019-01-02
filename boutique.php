@@ -10,7 +10,7 @@
     <body>
     <?php include 'template/nav.php' ?>
 
-    <section class="boutique-section" style="padding-top: 120px;">
+    <section class="boutique-section" style="">
         <div class="img-bg text-center text-uppercase">
             <h1>La boutique</h1>
         </div>

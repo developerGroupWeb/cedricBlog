@@ -107,8 +107,8 @@
 							<div class="col-12">
 								<p class="row"><strong>Téléphone: </strong></p>
 
-								<p class="row">xxxxxxxxxxxx</p>
-								<p class="row">xxxxxxxxxxxx</p>
+								<p class="row">+1 3194716087</p>
+								<p class="row"></p>
 							</div>
 						</div>
 
@@ -116,7 +116,7 @@
 							<div class="col-12">
 								<p class="row"><strong>Courriel: </strong></p>
 
-								<p class="row">exple@...com</p>
+								<p class="row">contact@cedricagossou.com</p>
 							</div>
 						</div>
 

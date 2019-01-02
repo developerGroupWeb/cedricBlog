@@ -4,12 +4,13 @@
 	<!-- Required meta tags -->
 	<?php include 'pills/cssLink.php' ?>
 
-	<title>coaching</title>
+	<title>SingIn</title>
 	</head>
 <body>
 	<?php include 'template/nav.php' ?>
 
 
+<div style="margin-top: 180px;">
 	<div  class="px-5 col-sm-8 offset-sm-2 col-lg-4 offset-lg-4 my-5 bg-light py-4" style="border-top: 4px solid #00ace6;">
 		<div class="row"><h4 class="text-center mx-auto">CONNEXION</h4></div>
         <span class="process" style="display: none; color: gold"></span>
@@ -35,6 +36,7 @@
 
 		<div class="row"><a href="singUp.php" class="btn btn-outline-primary w-100 text-uppercase">Créer un compte gratuit</a></div>
 	</div>
+</div>
 
 	<?php include 'template/footer.php' ?>
 

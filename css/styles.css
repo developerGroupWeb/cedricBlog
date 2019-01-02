@@ -32,21 +32,24 @@ background-color: ;
 }
 
 .home-section video{
-	min-width: 100%;
 	position: absolute;
 	height: 100vh;
+	min-width: 100%;
 	top: 0;
 	right: 0;
+	left: 0;
+	bottom: 0;
+	z-index: 0;
 }
 
 .home-section .content-hero{
-	background-color: rgba(0,0,0,0.7);
-	height: 100vh;
 	position: absolute;
-	z-index: 10;
+	height: 100vh;
+	min-width: 100%;
+	background-color: rgba(0,0,0,0.6);
 	top: 0;
 	right: 0;
-	min-width: 100%;
+	z-index: 10;
 }
 
 .home-section h1{
@@ -137,11 +140,11 @@ background-color: ;
 
 	.home-section h1{
 	font-size: 30px;
-	margin-top: 150px;
+	margin-top: 200px;
 	}
 
 	.home-section, .home-section .content-hero{
-		height: 50vh;
+		height: 400px;
 	}
 }
 
@@ -189,6 +192,14 @@ footer a:hover,footer .a:hover{
 	}
 }
 
+.coaching-section,
+.boutique-section,
+.event-section,
+.formation-section
+{
+	padding-top: 120px;
+}
+
 .coaching-section .img-bgd{
 	background-image: url(../images/find_your_purpose_1200x627.jpg);
 	background-size: cover;
@@ -199,11 +210,12 @@ footer a:hover,footer .a:hover{
 }
 
 .coaching-section .img-bgd h1,
-.formation-section .img-bg h1,
+.formation-section .img-bg .home,
 .event-section .img-bg h1,
 .boutique-section .img-bg h1{
 	background-color: rgba(0,0,0,0.8);
-	padding: 150px 0px 150px 0px;
+	padding-top: 150px;
+	padding-bottom: 150px;
 }
 
 .formation-section .img-bg{
@@ -239,7 +251,15 @@ footer a:hover,footer .a:hover{
 	.event-section .img-bg h1,
 	.boutique-section .img-bg h1{
 		font-size: 30px;
-		padding: 50px 0px 50px 0px;
+		padding: 80px 0px 80px 0px;
+	}
+
+	.coaching-section,
+	.boutique-section,
+	.event-section,
+	.formation-section
+	{
+		padding-top: 70px;
 	}
 }
 

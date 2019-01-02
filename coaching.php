@@ -14,7 +14,7 @@
 			<h1>Coaching</h1>
 		</div>
 
-		<div class="">
+		<div>
 		<div class="container py-5">
 			<div class="row">
 				<div class="col-md-5">

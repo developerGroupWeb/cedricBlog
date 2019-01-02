@@ -58,7 +58,7 @@
     <section class="section-newsletters bg-primary py-5">
       <div class="col-lg-8 offset-lg-2">
         <div class="row mb-4">
-          <h2 class="mx-auto text-center text-white font-weight-bold">Recevez une capsule gratuit de Cedric</h2>
+          <h2 class="mx-auto text-center text-white font-weight-bold">Recevez la chronique gratuit de Cedric</h2>
         </div>
         <div class="">
           <form class="row" method="post" action="">

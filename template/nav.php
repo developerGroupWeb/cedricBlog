@@ -6,23 +6,20 @@
         <div class="navbar-collapse">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-              <a class="nav-link" href="https://www.facebook.com/agossou.cedrich.euloge"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+              <a class="nav-link" href="https://www.facebook.com/Cedric-H-Agossou-Officiel-2078390082178427/" title="Cedric-H-Agossou-Officiel" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+              <a class="nav-link" href="https://www.youtube.com/channel/UC3dHtraLLx03Tra5yhYffew/featured?view_as=subscriber" title="Cedric Agossou youtube" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+              <a class="nav-link" href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
             </li>
             <li>
               <a href="" class="nav-link"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
             </li>
 
             <li>
-              <a href="" class="nav-link">xxxxxxxxxx</a>
-            </li>
-            <li>
-              <a href="" class="nav-link">xxxxxxxxxxx</a>
+              <a href="" class="nav-link">+1 3194716087</a>
             </li>
           </ul>
    
@@ -59,15 +56,15 @@
             <li class="nav-item">
               <a class="nav-link" href="événements.php">Événements</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item btn-group dropdown">
               <a class="nav-link" href="boutique.php">La boutique</a>
-              <!--<a class="nav-link dropdown-toggle dropdown-toggle-split" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="cursor: pointer;">
+              <a class="nav-link dropdown-toggle dropdown-toggle-split" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="cursor: pointer;">
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <a class="dropdown-item" href="#">Audios</a>
                 <a class="dropdown-item" href="#">Vidéos</a>
                 <a class="dropdown-item" href="#">Livres</a>
-              </div>-->
+              </div>
             </li>
           </ul>
 
