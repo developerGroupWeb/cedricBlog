@@ -8,3 +8,7 @@
 function e($var){
     return htmlspecialchars($var, ENT_QUOTES);
 }
+
+function holds_string($var){
+    return preg_match("/^-?[A-Za-zéèêëíìîïñóòôöõúùûüýÿæ\-\ ]+$/", $var); // ici (\-) me permet d'autoriser '-' dans un prenom
+}

@@ -1,6 +1,4 @@
-<?php
-session_start();
-if(isset($_SESSION['firstname'])) {?>
+
 
 
     <!doctype html>
@@ -21,7 +19,7 @@ if(isset($_SESSION['firstname'])) {?>
 
         <div class="container py-5">
             <div class="row px-2">
-               <?= $_SESSION['firstname'].' '.$_SESSION['lastname']?>
+
             </div>
         </div>
     </section>
@@ -34,5 +32,3 @@ if(isset($_SESSION['firstname'])) {?>
 
 
 
-}else
-header('Location:index.php');

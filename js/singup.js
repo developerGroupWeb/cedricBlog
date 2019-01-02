@@ -22,7 +22,7 @@ $(function(){
             alertMessage(this, '.error-first_name', 'Caractères non autorisé');
             error_first_name = false;
 
-        }else if(first_name.length < 6){
+        }else if(first_name.length < 5){
 
             alertMessage(this, '.error-first_name', 'Taper 6 caractères au moins');
             error_first_name = false;
@@ -128,11 +128,11 @@ $(function(){
                 $('.error-password').html('Ce champs est obligatoire').show();
             }
 
-            return false;
+            //return false;
         }else{
 
-            $.ajax({
-                url: 'Utils/insertUser.php',
+            /*$.ajax({
+                url: 'Utils/insertWithAjax.php',
                 type: 'POST',
                 dataType: 'json',
                 data:$(this).serialize(),
@@ -156,8 +156,8 @@ $(function(){
 
                 }
 
-            });
-            return false;
+            });*/
+            return true;
         }
     });
     //alert('test');

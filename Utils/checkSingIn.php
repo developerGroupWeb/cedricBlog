@@ -12,6 +12,7 @@ spl_autoload_register(function ($class){
     require_once '../class/'.$class.'.php';
 });
 
+
 $email = e($_POST['email']);
 $pass = e(sha1($_POST['password']));
 $errors = [];
@@ -27,7 +28,7 @@ if(!empty($email)){
 
            foreach ($user as $value){
 
-               if (password_verify($pass, $value['password'])) {
+               if ($pass === $value['password']) {
 
                    session_start();
                    $_SESSION['firstname'] = $value['firstname'];

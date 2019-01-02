@@ -1,3 +1,6 @@
+<?php
+require_once 'Utils/insertWithPhp.php';
+?>
 <!doctype html>
 <html lang="en">
 	<head>
@@ -19,26 +22,26 @@
 		<form class="" action="" method="post" id="formSubmit">
 		  <div class="form-group row">
 		    <label for="first_name">Votre Prénom</label>
-		    <input type="text" name="first_name" class="form-control" id="first_name" placeholder="Entez votre prénom">
-		    <span class="error-first_name" style="display: none; color: red; font-style: italic"></span>
+		    <input type="text" name="first_name" class="form-control" id="first_name" placeholder="Entez votre prénom" value="<?= $validator->inputText('first_name')? $validator->inputText('first_name') : ''?>">
+		    <span class="error-first_name" style="color: red; font-style: italic"><?= isset($validator->errors['first_name'])? $validator->errors['first_name'] : ''?></span>
 		  </div>
 		  <div class="form-group row">
 		    <label for="last_name">Votre nom</label>
-		    <input type="text" name="last_name" class="form-control" id="last_name" placeholder="Entez votre nom">
-		    <span class="error-last_name" style="display: none; color: red; font-style: italic"></span>
+		    <input type="text" name="last_name" class="form-control" id="last_name" placeholder="Entez votre nom"  value="<?= $validator->inputText('last_name')? $validator->inputText('last_name') : ''?>">
+		    <span class="error-last_name" style="color: red; font-style: italic"><?= isset($validator->errors['last_name'])? $validator->errors['last_name'] : ''?></span>
 		  </div>
 		  <div class="form-group row">
 		    <label for="email">Email</label>
-		    <input type="email" name="email" class="form-control" id="email" placeholder="Entez votre email">
-		    <span class="error-email" style="display: none; color: red; font-style: italic"></span>
+		    <input type="email" name="email" class="form-control" id="email" placeholder="Entez votre email"  value="<?= $validator->inputText('email')? $validator->inputText('email') : ''?>">
+		    <span class="error-email" style="color: red; font-style: italic"><?= isset($validator->errors['email'])? $validator->errors['email'] : ''?></span>
 		  </div>
 		  <div class="form-group row">
 		    <label for="password">Mot de passe</label>
 		    <input type="password" name="password" class="form-control" id="password" placeholder="Votre mot de passe">
-		    <span class="error-password" style="display: none; color: red; font-style: italic"></span>
+		    <span class="error-password" style="color: red; font-style: italic"><?= isset($validator->errors['password'])? $validator->errors['password'] : ''?></span>
 		  </div>
 		  
-		  <button type="submit" class="btn btn-primary w-100">Créer</button>
+		  <button type="submit" name="submit" class="btn btn-primary w-100">Créer</button>
 		</form>
 
 		<div class="row mt-4"><a href="singIn.php" class="btn btn-outline-primary w-100 text-uppercase">Se connecter</a></div>

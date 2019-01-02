@@ -1,3 +1,7 @@
+<?php
+session_start();
+if(isset($_SESSION['firstname']) && isset($_SESSION['lastname'])) {?>
+
 <!doctype html>
 <html lang="en">
 	<head>
@@ -5,6 +9,7 @@
 	<?php include 'pills/cssLink.php' ?>
 
 	<title>Mon espace</title>
+        <script scr="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	</head>
 <body>
 	<div class="">
@@ -45,7 +50,7 @@
               <a class="nav-link text-white font-weight-bold rounded" style="background-color: #00ace6;" href="">Mon espace</a>
             </li>
             <li class="nav-item">
-            	<a href="" class="nav-link "><i class="fa fa-sign-out" style="font-size: 25px;" aria-hidden="true"></i></a>
+            	<a href="logout.php" class="nav-link sing-out"><i class="fa fa-sign-out" style="font-size: 25px;" aria-hidden="true"></i></a>
             </li>
           </ul>
         </div>
@@ -119,12 +124,7 @@
 
 				<div class="col-10 col-md-8 col-lg-9 w-100">
 					<div class="row">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        <?= $_SESSION['firstname'].' '.$_SESSION['lastname']?>
 					</div>
 				</div>
 			</div>
@@ -133,5 +133,10 @@
 
 	<?php include 'template/footer.php' ?>
 	<?php include 'pills/jsLink.php' ?>
+<script src="js/logout.js"></script>
 </body>
 </html>
+
+<?php
+}else
+header('Location:index.php');

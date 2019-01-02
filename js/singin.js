@@ -7,6 +7,7 @@ $(function(){
             url: 'Utils/checkSingIn.php',
             type: 'POST',
             dataType: 'json',
+            cache: false,
             data:$(this).serialize(),
             async :true,
             beforeSend: function () {
@@ -26,7 +27,7 @@ $(function(){
 
                 }else if(data.success){
 
-                    window.location = 'boutique.php';
+                    window.location = 'mon-espace.php';
                 }
 
             }
