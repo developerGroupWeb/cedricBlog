@@ -81,7 +81,7 @@
           </ul>
 
           <form class="form-inline my-2 my-lg-0">
-            <input class="form-control" type="search" placeholder="Taper votre recherche" aria-label="Search">
+            <input class="form-control" type="search" id="search" placeholder="Taper votre recherche" aria-label="Search">
             
           </form>
         </div>

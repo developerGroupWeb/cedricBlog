@@ -229,5 +229,6 @@
 
    <?php include 'pills/jsLink.php' ?>
   <script src="js/index.js"></script>
+  <script src="js/search.js"></script>
   </body>
 </html>

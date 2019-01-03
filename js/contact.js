@@ -70,17 +70,17 @@ $(function(){
         if(message === ''){
 
             alertMessage(this, '.error-message', 'Taper votre  message');
-            error_last_name = false;
+            error_message = false;
 
         }else if(message.length < 10){
 
             alertMessage(this, '.error-message', 'Taper 10 caractères au moins');
-            error_last_name = false;
+            error_message = false;
 
         }else{
 
             $('.error-message').hide();
-            error_last_name = true;
+            error_message = true;
         }
     });
 
@@ -154,14 +154,19 @@ $(function(){
         var email = form.find('#email').val();
         var confirm_email = form.find('#confirm-email').val();
         var last_name = form.find('#last_name').val();
+        var first_name = form.find('#first_name').val();
         var message = form.find('#message').val();
 
 
-        if (error_email === false || error_last_name === false || error_message === false || error_confirm_email === false) {
+        if (error_email === false || error_first_name === false || error_last_name === false || error_message === false || error_confirm_email === false) {
 
             if (last_name === '') {
 
                 $('.error-last_name').html('Votre nom est obligatoire').show();
+            }
+            if (first_name === '') {
+
+                $('.error-first_name').html('Votre prénom est obligatoire').show();
             }
             if (email === '') {
                 $('.error-email').html('E-mail est obligatoire').show();
@@ -174,11 +179,10 @@ $(function(){
                 $('.error-message').html('Message est obligatoire').show();
             }
             return false;
+
         }else{
-
-
             $.ajax({
-                url: '',
+                url: 'Utils/sendEmail.php',
                 type: 'POST',
                 dataType: 'json',
                 data:$(this).serialize(),
@@ -189,18 +193,17 @@ $(function(){
                 },
                 success: function (data) {
 
-                    if(data.errors){
+                    if(data.message){
 
-                        alert(data.errors);
+                        alert(data.message);
 
-                    }else if(data.success){
-
-                        alert(data.success);
-                        $('#first_name').add('#email, #last_name').val('');
+                        $('#first_name').add('#email, #last_name, #company, #confirm-email, #message').val('');
 
                         //$('.alert-info').html(data.success).show();
                         //$('.alert-danger').hide();
+                    }else if(data.errors){
 
+                        alert(data.errors);
                     }
 
                 }
