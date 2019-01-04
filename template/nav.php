@@ -1,4 +1,4 @@
- <script scr="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
 
 <div class="all-nav fixed-top">
     <div class="d-none d-md-block">
