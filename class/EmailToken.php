@@ -10,15 +10,20 @@ class EmailToken
 {
     static function send($token, $email){
 
-        $dest ="$email";
+        $dest = $email;
+        $subject = "Code de réinitialisation de mot de passe";
         $message =" 
-             <h4>Code de réinitialisation de mot de passe </h4>
-             <b>$token</b> 
-    ";
-        $header ='From:"CEDRIC" <contact@cedricagossou.com>'."\n";
-        $header.='Content-Transfer-encoding: 8bit'."\n";
-        $header.= "Content-Type: text/html; charset=iso-8859-1";
+            <body>
+                <strong> 
+                  <h5>$subject</h5>
+                     <b>$token</b>
+                 </strong> 
+            </body>
+     
+   ";
+        $header = "From: contact@cedricagossou.com\n";
+        $header.= "Content-Type: text/html; charset=utf-8";
 
-        mail($dest,$message,$header);
+        mail($dest, $subject, $message, $header);
     }
 }

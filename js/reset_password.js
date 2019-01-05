@@ -41,7 +41,7 @@ $(function(){
 
                         $('.error').hide();
                         error_email = false;
-                        window.location.href = 'reset_password.php';
+                        window.location.href = 'verify_code.php?email='+ email;
                     }
                 }
             });

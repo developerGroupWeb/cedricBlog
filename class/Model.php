@@ -47,12 +47,43 @@ abstract class Model
     /**
      * @param $table
      * @param array $data
+     * @return string
+     */
+    static function rowToken($table, $data = []){
+        $row = '';
+
+        if($data != null) {
+
+            $query = self::getDb()->prepare("SELECT * FROM $table WHERE email = ? && token = ?");
+            $query->execute($data);
+            $row = $query->rowCount();
+        }
+
+        return $row;
+    }
+
+    /**
+     * @param $table
+     * @param array $data
      */
     static function update($table, $data = []){
 
         if($data != null) {
 
             $query = self::getDb()->prepare("UPDATE $table SET token = ? WHERE email = ? ");
+            $query->execute($data);
+        }
+    }
+
+    /**
+     * @param $table
+     * @param array $data
+     */
+    static function updatePassword($table, $data = []){
+
+        if($data != null) {
+
+            $query = self::getDb()->prepare("UPDATE $table SET password = ? WHERE email = ? ");
             $query->execute($data);
         }
     }
