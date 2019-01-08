@@ -23,19 +23,23 @@ $errors = [];
 if(!empty($firstname) && !empty($email) && !empty($lastname) && !empty($message)){
 
     $dest ="contact@cedricagossou.com";
+    $subject = "Contact";
     $message =" 
-      <strong> 
-      <h2>Compagnie <b>$company ? $company : ''</b></h2>
-      <h4>Envoyer par $lastname  $lastname</h4>
-         $message
-      </strong> 
+         <body>
+              <strong> 
+                  <h2>Compagnie <b>$company ? $company : ''</b></h2>
+                  <h4>Envoyer par $lastname  $lastname</h4>
+                     $message
+              </strong> 
+        </body>
+      
    ";
     $header = "From: $email\n";
     $header.= "Cc: $dest\n";
     $header.= "Reply-To: $email\n";
     $header.= "Content-Type: text/html; charset=iso-8859-1";
 
-    if(mail($dest,$message,$header)){
+    if(mail($dest,$subject, $message,$header)){
 
         $errors['fail'] = false;
         $errors['message'] = "Your message has been sent successfully";

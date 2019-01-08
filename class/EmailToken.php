@@ -11,12 +11,12 @@ class EmailToken
     static function send($token, $email){
 
         $dest = $email;
-        $subject = "Code de réinitialisation de mot de passe";
+        $subject = "Lien de réinitialisation de mot de passe";
         $message =" 
             <body>
                 <strong> 
-                  <h5>$subject</h5>
-                     <b>$token</b>
+                  <h5>Cliquez <a href='https://www.cedricagossou.com/verify_code.php?email=$email&token=$token'>ici</a> </h5>
+                  <p><a href='https://www.cedricagossou.com/verify_code.php?email=$email&token=$token'>https://www.cedricagossou.com/verify_code.php?email=$email&token=$token</a></p>
                  </strong> 
             </body>
      
